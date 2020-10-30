@@ -49,7 +49,49 @@ html {
     grid-area: 2 / 4 / 6 / 7;
   }
 
-  .calculator-keys {
+  .calculator-keys-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+
+  .calculator-keys-7 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
