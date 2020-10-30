@@ -6,6 +6,7 @@ html {
 
   .calculator {
     border: 1px solid black;
+    background-color: lemonchiffon;
     border-radius: 5px;
     position: absolute;
     top: 50%;
@@ -17,6 +18,12 @@ html {
   #display {
     text-align: right;
     padding-right: 5px;
+    background-color: lightgray;
+    width: 100%;
+    height: 80px;
+    flex: wrap;
+
+
 }
 
   .wrapper {
@@ -24,11 +31,11 @@ html {
     height: 80px;
     border: none;
     background-color: gray;
-    color:white;
+    color:black;
     text-align: right;
-    padding-right: 20px;
-    padding-left: 10px;
-    font-size: 4px;
+    /* padding-right: 20px;
+    padding-left: 10px; */
+    font-size: 30px;
   }
 
   button {
@@ -48,3 +55,47 @@ html {
     grid-gap: 20px;
     padding: 20px;
   }
+
+
+
+  @media (max-width: 900px) {
+    span {
+        font-size: 2px;
+    }
+}
+
+@media (max-width: 720px) {
+    span {
+        font-size: 1.8px;
+    }
+}
+
+@media (max-width: 660px) {
+    span {
+        font-size: 1.6px;
+    }
+}
+
+@media (max-width: 560px) {
+    span {
+        font-size: 1.4px;
+    }
+}
+
+@media (max-width: 460px) {
+    span {
+        font-size: 1px;
+    }
+}
+
+@media (max-width: 360px) {
+    span {
+        font-size: 0.8px;
+    }
+}
+
+@media (max-width: 160px) {
+    span {
+        font-size: 0.7px;
+    }
+}
