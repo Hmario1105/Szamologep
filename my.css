@@ -100,44 +100,38 @@ html {
 
 
 
-  @media (max-width: 900px) {
+ @media (max-width: 900px) {
     span {
-        font-size: 2px;
+        font-size: 20px;
+    }
+} 
+
+@media (max-width: 700px) {
+    span {
+        font-size: 20px;
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 500px) {
     span {
-        font-size: 1.8px;
+        font-size: 20px;
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 400px) {
     span {
-        font-size: 1.6px;
+        font-size: 30px;
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 300px) {
     span {
-        font-size: 1.4px;
+        font-size: 40px;
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 100px) {
     span {
-        font-size: 1px;
+        font-size: 40px;
     }
-}
-
-@media (max-width: 360px) {
-    span {
-        font-size: 0.8px;
-    }
-}
-
-@media (max-width: 160px) {
-    span {
-        font-size: 0.7px;
-    }
-}
+} 
